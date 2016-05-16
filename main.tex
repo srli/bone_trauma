@@ -45,6 +45,7 @@
 % ------   Macros   ------
 \renewcommand{\thesubsection}{\thesection.\alph{subsection}} %subsections to letters
 \renewcommand{\thesubsubsection}{\thesubsection.\roman{subsubsection}}
+\renewcommand{\baselinestretch}{1.25}
 
 \newcommand{\dline}{\hrule \vskip -.2em \hrule} % double line
 
@@ -164,26 +165,34 @@ Imaging technology is useful in documenting the exact state of the bone, and dig
 
 While hard tissue is good at providing investigators with information about the entrance and exit of a bullet, it is not quite as informative in recording the path of the bullet through the body. However, CT imaging works well on both soft and hard tissue and can preserve a cadavar from further decay by recording its current state into a digital form. This quality is especially important for ballistic trauma, as the path of the projectile can be inferred from the CT scan by revealing lanes of tissue damage through the body and identification of possible projectile fragments embedded in soft tissue.
 
-\newpage
 \section{Blunt force trauma}
-While ballistic and blast trauma can both be techinically classified as blunt force trauma, in the context of this paper we will refer to blunt force trauma as trauma resulting from a low-velocity impact from a blunt object or blunt surface. Features suggesting blunt force trauma include plastic deformation, delamination, tool marks/impressions at trauma site, or fracture patterns on the bone suggesting low velocity impact.\cite{trauma}
+While ballistic trauma can be classified as blunt force trauma, in the context of this paper blunt force trauma will refer to trauma resulting from a low velocity impact from a blunt object or blunt surface. Features suggesting blunt force trauma include plastic deformation, delamination, tool marks/impressions at trauma site, or fracture patterns on the bone suggesting low velocity impact.\cite{trauma}
 
-Tests conducted on longitudinal bones indicated
+During low velocity impact, the bone will have more time to bend and deform in response to the stress before it fails. A study by Kulin\cite{post-imaging} tested equine bones at different strain rates. They found that the slower the strain rate, the more fragmentation occured in the microstructure of the bone. As bone is viscoelastic, a slower strain rate gives the bone time to go through plastic deformation before failure. Fractures from slow loading rates were jagged and propagated away from the main crack path, limiting the overall fracture length as energy was dissapated over a greater surface area of bone. Under faster loading conditions, the fractures were straighter and had less perhipheral damage. This study showed that fracture propagation was dependant on the rate of the loading force. Since blunt force trauma is the result of a slow loading force, fractures resulting from it will typically propagate like a web across the surface area of bone instead of forming one major crack as the cracks travel around embedded vascular structures in the bone. Fig.\ref{fig:skull} demonstrates the characteristic propagation of fractures from the main blunt force trauma impact site.
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.4\linewidth]{blunt_trauma}
+\caption{Adapted from \cite{craniums}. Depressed fracture on sphere simulating a free-moving head after strike with a baseball bat}
+\label{fig:skull}
+\end{figure}
 
-\newpage
-\section{Blast}
+Different kinds of applied force will exhibit itself characteristic fracture patterns as well. Knowledge of these patterns can provide additional information about the events leading up to the fracture.
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.4\linewidth]{butterfly}
+\caption{Adapted from \cite{bft}. Butterfly fracture on ulna, the white arrow indicates the direction of impact. The bone fails at the body of the butterly, fracturing upwards along the black arrow}
+\label{fig:butterfly-fracture}
+\end{figure}
+
+Fig.\ref{fig:butterfly-fracture} is a butterfly fracture on the ulna. Due to the organization of the osseous fibers, fractures will tend to propagate down the length of the bone.\cite{mechanics} As observed in Fig.\ref{fig:butterfly-fracture}, the bone fails and cracks propagate diagonally. Since fractures are always the result of interactions between forces and the morphology of the bone, the presence of a butterfly fracture on a long bone immediately provides evidence of an impact perpendicular to the length of the bone. As such, it becomes valuable to have a fully modeled human skeleton so that anthopologists will have immediate predictions as to forces necessary to produce fracture patterns. Computational human skeleon models are not robust enough to act as a substitute to real bone, though the area is very much in active research. Researchers have also experimented with nonhuman animal models, mostly focusing with porcine and deer due to similarities with the human skeleton. Current tests conducted these animals have provided information about how weathering effects evidence of blunt force trauma, showing it is possible for bone to retain characteristics of trauma even after 52 weeks of exposure and freeze-thaw cycles.\cite{bft}
 
 \newpage
 \section{Sharp force trauma}
-Sharp force trauma is characterized by trauma resulting from a tool that is edged, pointed, or beveled. Features indicating sharp force trauma on bone include straight-lined incisions, punctures or gouges, clefs or kerfs. Considerations must be taken when examining the wound, since alterations to the bone like scrapes or score marks are not classified as sharp force trauma. \cite{trauma}
+Sharp force trauma is characterized by trauma resulting from a tool that is edged, pointed, or beveled. Features indicating this kind of trauma include straight-lined incisions, punctures or gouges, clefs or kerfs. Considerations must be taken when examining the wound, since alterations to the bone like scrapes or score marks are not classified as sharp force trauma. \cite{trauma}
 
-
-
-(SECTION DESCRIBING EACH TYPE OF TRAUMA i.e gouges, clefs, kerfs)
-
-There are a few methods currently used in examining bones with evidence of sharp force trauma. Casting is an immediately viable option, and is a non-destructive way of providing investigators a method of examining the wound. However, casting on on soft-tissue has been met with mixed success, and is unable to provide information to investigators on the micro scale about the incision. However, it is possible to estimate the motion of the tool based on whether it is a slash (the incision is wider than it is deep), or a stab (the incision is deeper than it is wide) through visual inspection. \cite{serrated} Macro inspection of the wound at a visual scale can qualitatively describe the tool used in the trauma down to a class, such as "single edged" or "beveled". The handedness of an attacker, or whether a wound is self inflicted can be determined by the angle of the incision in context to the position of the body.
+When examining bones with evidence of sharp force trauma, Casting is an immediately viable option, and is a non-destructive way of providing investigators a method of examining the wound. However, casting on on soft-tissue has been met with mixed success, and is unable to provide information to investigators on the micro scale about the incision. However, it is possible to estimate the motion of the tool based on whether it is a slash (the incision is wider than it is deep), or a stab (the incision is deeper than it is wide) through visual inspection. \cite{serrated} Macro inspection of the wound at a visual scale can qualitatively describe the tool used in the trauma down to a class, such as "single edged" or "beveled". The handedness of an attacker, or whether a wound is self inflicted can be determined by the angle of the incision in context to the position of the body.
 
 Crack propagation happens more readily in the lateral direction due to the organization of the bone tissue fibers.\cite{mechanics} In cases where the bone has experianced sharp force trauma,
 
@@ -192,8 +201,53 @@ Micro-CT scanning technology is used to give greater insight to the patterned ma
 
 
 \newpage
-\section{Thermal}
-Thermal damage to bones
+\section{Thermal trauma}
+Thermal trauma is the result of bone that is in direct contact with high temperatures for a significant amount of time. Characterics of bone with thermal trauma include shrinkage, discoloration, calcification, or an observable burn pattern on the surface of the bone.\cite{trauma}
+
+Bone that has undergone thermal trauma is typically in a fragmentary state, making retreival difficult. Establishing a minimum number of individuals is hard as well, thanks to possible comingling that may occur at the location of the fire. Bones exposed to high temperatures will shrink due to the rapid evaporation of water, though the amount of shrinking will depend on a variety of internal (age, sex, height) and external (fire temperature, oxygen content) factors.  Shrinkage begins at temperatures of 700C, with augmented degrees of shrinkage until 800C when no more shrinkage occurs. Bone also undergoes structural changes during the temperature ramp, with organic material like cellulose being destroyed at 400C, recrystallization of the bone mineral at 600C, and melting of bone mineral at 1600C. \cite{fire}
+
+In the case where a fire is set in an attempt to hide a homicide, analysis of possible peri-mortem trauma that is unrelated to the fire is important in providing factual evidence on the case. Heat-induced fractures have an irregular pattern when compared to those seen in impact based trauma. Curved transverse fractures occuring in a stacked arc formation across the grain of the bone are most commonly associated with the reduction of soft tissue during a fire. Delamination, described as the peeling or flaking of the bone's outer layers, occurs due to the separation of cortical and cancellous bone. A cracked and dehydrated appearance of the outer layers of cortical bone is also typical due to the rapid dehydration of the bone during a fire.\cite{fire-bone}
+
+Conversely, fractures due to impact-based trauma should obey bone bio-mechanics. Clean, long fractures are indicative of some high energy low duration impact, while shallow jagged fractures imply the a low energy high duration impact. Even after bone is burned, these features still remain.
+
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{trauma_transverse}
+  \end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{heat_transverse}
+\end{subfigure}
+\caption{Adapted from \cite{fire-bone}. Images of transverse fractures on burned porcine femur. (a) is a photo of a trauma induced transverse fracture. (b) is a heat induced transverse fracture.}
+\label{fig:fracture_comp}
+\end{figure}
+
+Fig.\ref{fig:fracture_comp} shows the differences between fractures induced by heat and fractures from impact based trauma. When viewed at 30x magnification, the surface of the fracture is quite different between the two. Fig.\ref{fig:fracture_comp}.b shows that the fracture surface of a heat induced fracture is quite clean, and is very smooth when compared to the impact trauma induced fracture in Fig.\ref{fig:fracture_comp}.a. Since recrystallization of bone mineral occurs at 600C, clean fractures like these indicate that the fractures occured late in the burning process or after the bone has cooled.
+
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{unburned_transverse}
+  \end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{burned_transverse}
+\end{subfigure}
+\caption{Adapted from \cite{fire-bone}. (a) is a photo of a unburned transverse fracture on a porcine femur. (b) is an burned version of the same.}
+\label{fig:burn_fracture}
+\end{figure}
+
+Fig.\ref{fig:burn_fracture} is a 100x magnification of a transverse fracture on a porcine femur via scanning electron microscope. Fig.\ref{fig:burn_fracture}.a shows an unburned fracture, where the definition of the fracture surface is greater than that of the burned version shown in Fig.\ref{fig:burn_fracture}.b. As already observed in Fig.\ref{fig:fracture_comp}, fires will erase definition due to high temperatures causing changes to the structure of the boney material. Sediment like soot or ash will also settle inside fractures, potentially causing issues when attempting to observe detail of fracture sites.
+
+A study by Herrman concluded that even with simple optical microscope analysis, it was possible to identify post-mortem sharp force trauma following incineration of bone as the evidence left on bone is distinctive enough to be recognizable even after fragmentation has occured. Fractures resulting from blunt force or ballistic trauma required rigorous examination at high magnifications (100x) because the resulting fractures were quite similar to changes that may occur to bone during exposure to high temperatures. However, they concluded that large fragmentary bone material were more likely to be due to post-mortem trauma, while small fragments were more likely to be due to flaking of the bone from the fire. \cite{fire-bone}
+
+\newpage
+\section{Conclusion}
+
+When observing fatal cranial fractures due to blunt force trauma, it is found that linear fractures on the right site of the skull are common in falls while linear fractures on the left side are common in homicide cases. As the majority of people are right handed, most will attempt to catch a fall with their right hand which results in the right side of their head hitting the ground first. In cases of homicide, if the victim and assailant are facing each other, the left side of the skull is likely to show damage. If the assailant is behind the vicim, then the damage is still likely to appear on the right side.\cite{craniums}
 
 \newpage
 \bibliographystyle{ieeetr}   % this means that the order of references

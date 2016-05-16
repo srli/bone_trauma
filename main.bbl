@@ -39,17 +39,35 @@ M.~Oehmichen and et~al., ``Forensic pathological aspects of postmortem imaging
   of gunshot injury to the head: documentation and biometric data,'' {\em Acta
   Neuropathol}.
 
+\bibitem{craniums}
+K.~EF, ``Forensic investigation of cranial injuries due to blunt force trauma:
+  current best practice,'' {\em Research and Reports in Forensic Medical
+  Science}.
+
+\bibitem{bft}
+N.~V. Passalacqua and T.~W. Fenton, {\em A Companion to Forensic Anthropology}.
+\newblock Blackwell Publishing Ltd, 2012.
+
+\bibitem{mechanics}
+U.~of~Cambridge, ``Bone mechanics.''
+
 \bibitem{serrated}
 T.~J.~U. Thompson and J.~Inglis, ``Differentiation of serrated and non-serrated
   blades from stab marks in bone,'' {\em International Journal of Legal
   Medicine}, 2009.
 
-\bibitem{mechanics}
-U.~of~Cambridge, ``Bone mechanics.''
-
 \bibitem{micro-ct}
 M.~J. Thali and et. al, ``Forensic microradiology: Micro-computed tomography
   (micro-ct) and analysis of patterned injuries inside of bone,'' {\em TJ
   Forensic Sci}.
+
+\bibitem{fire}
+D.~H. Ubelaker, ``The forensic evaluation of burned skeletal remains: A
+  synthesis,'' {\em Forensic Science International}.
+
+\bibitem{fire-bone}
+N.~P. Herrmann and J.~L. Bennett, ``The differentiation of traumatic and
+  heat-related fractures in burned bone,'' {\em American Academy of Foren- sic
+  Sciences}.
 
 \end{thebibliography}

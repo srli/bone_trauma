@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 02:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,20 +742,20 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
  ABD: EveryShipout initializing macros (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
@@ -781,7 +781,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 63.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -789,101 +789,145 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 <img/bone_microstructure.jpg, id=44, 208.6194pt x 308.352pt>
 File: img/bone_microstructure.jpg Graphic file (type jpg)
  <use img/bone_microstructure.jpg>
-Package pdftex.def Info: img/bone_microstructure.jpg used on input line 83.
+Package pdftex.def Info: img/bone_microstructure.jpg used on input line 84.
 (pdftex.def)             Requested size: 93.94955pt x 138.86063pt.
  <img/bone_stress.png, id=47, 432.61626pt x 281.55188pt>
 File: img/bone_stress.png Graphic file (type png)
  <use img/bone_stress.png>
-Package pdftex.def Info: img/bone_stress.png used on input line 88.
+Package pdftex.def Info: img/bone_stress.png used on input line 89.
 (pdftex.def)             Requested size: 211.3883pt x 137.57497pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 
-      [1 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] <img/fracture.png, id=67, 610.28pt x 324.21124pt>
+l.98 \textbf{Ante-mortem trauma}
+                                : Refers to trauma on the skeleton that occu... [1] <img/fracture.png, id=63, 610.28pt x 324.21124pt>
 File: img/fracture.png Graphic file (type png)
  <use img/fracture.png>
-Package pdftex.def Info: img/fracture.png used on input line 105.
+Package pdftex.def Info: img/fracture.png used on input line 106.
 (pdftex.def)             Requested size: 328.82707pt x 174.69548pt.
- [2 <./img/fracture.png>] <img/gunshot1.png, id=84, 271.0125pt x 290.08376pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] [3 <./img/fracture.png>] <img/gunshot1.png, id=91, 271.0125pt x 290.08376pt>
 File: img/gunshot1.png Graphic file (type png)
  <use img/gunshot1.png>
-Package pdftex.def Info: img/gunshot1.png used on input line 123.
+Package pdftex.def Info: img/gunshot1.png used on input line 124.
 (pdftex.def)             Requested size: 164.41353pt x 175.99031pt.
- <img/gunshot2.png, id=85, 272.01625pt x 289.08pt>
+ <img/gunshot2.png, id=92, 272.01625pt x 289.08pt>
 File: img/gunshot2.png Graphic file (type png)
  <use img/gunshot2.png>
-Package pdftex.def Info: img/gunshot2.png used on input line 127.
+Package pdftex.def Info: img/gunshot2.png used on input line 128.
 (pdftex.def)             Requested size: 164.41353pt x 174.73293pt.
- [3 <./img/gunshot1.png> <./img/gunshot2.png>] <img/entrance.png, id=101, 393.47pt x 262.9825pt>
+ <img/entrance.png, id=99, 393.47pt x 262.9825pt>
 File: img/entrance.png Graphic file (type png)
  <use img/entrance.png>
-Package pdftex.def Info: img/entrance.png used on input line 141.
+Package pdftex.def Info: img/entrance.png used on input line 142.
 (pdftex.def)             Requested size: 164.41353pt x 109.88608pt.
- <img/entrance_ct.png, id=102, 387.94937pt x 259.46938pt>
+ <img/entrance_ct.png, id=100, 387.94937pt x 259.46938pt>
 File: img/entrance_ct.png Graphic file (type png)
  <use img/entrance_ct.png>
-Package pdftex.def Info: img/entrance_ct.png used on input line 145.
+Package pdftex.def Info: img/entrance_ct.png used on input line 146.
 (pdftex.def)             Requested size: 164.41353pt x 109.96619pt.
- <img/exit.png, id=105, 393.47pt x 259.97125pt>
+ <img/exit.png, id=103, 393.47pt x 259.97125pt>
 File: img/exit.png Graphic file (type png)
  <use img/exit.png>
-Package pdftex.def Info: img/exit.png used on input line 155.
+Package pdftex.def Info: img/exit.png used on input line 156.
 (pdftex.def)             Requested size: 164.41353pt x 108.62785pt.
- <img/exit_ct.png, id=106, 389.455pt x 259.97125pt>
+ <img/exit_ct.png, id=104, 389.455pt x 259.97125pt>
 File: img/exit_ct.png Graphic file (type png)
  <use img/exit_ct.png>
-Package pdftex.def Info: img/exit_ct.png used on input line 159.
+Package pdftex.def Info: img/exit_ct.png used on input line 160.
 (pdftex.def)             Requested size: 164.41353pt x 109.75046pt.
- [4 <./img/entrance.png> <./img/entrance_ct.png> <./img/exit.png> <./img/exit_ct.png>] [5] [6] [7] [8] (./main.bbl) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./img/gunshot1.png> <./img/gunshot2.png> <./img/entrance.png> <./img/entrance_ct.png>] <img/blunt_trauma.png, id=121, 520.94624pt x 490.83376pt>
+File: img/blunt_trauma.png Graphic file (type png)
+ <use img/blunt_trauma.png>
+Package pdftex.def Info: img/blunt_trauma.png used on input line 175.
+(pdftex.def)             Requested size: 187.89914pt x 177.03703pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/butterfly.png, id=124, 335.2525pt x 339.2675pt>
+File: img/butterfly.png Graphic file (type png)
+ <use img/butterfly.png>
+Package pdftex.def Info: img/butterfly.png used on input line 184.
+(pdftex.def)             Requested size: 187.89914pt x 190.14897pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./img/exit.png> <./img/exit_ct.png>] [6 <./img/blunt_trauma.png> <./img/butterfly.png>] [7] <img/unburned_transverse.png, id=162, 396.48125pt x 550.055pt>
+File: img/unburned_transverse.png Graphic file (type png)
+ <use img/unburned_transverse.png>
+Package pdftex.def Info: img/unburned_transverse.png used on input line 219.
+(pdftex.def)             Requested size: 164.41353pt x 228.10071pt.
+ <img/burned_transverse.png, id=163, 400.49625pt x 552.0625pt>
+File: img/burned_transverse.png Graphic file (type png)
+ <use img/burned_transverse.png>
+Package pdftex.def Info: img/burned_transverse.png used on input line 223.
+(pdftex.def)             Requested size: 164.41353pt x 226.63348pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9 <./img/unburned_transverse.png> <./img/burned_transverse.png>] (./main.bbl) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6C373772A90D6D2B6EC9674C894E5FBE;341.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
+(rerunfilecheck)             Checksum: 1A0D55AFBBCE2BAB8992CEB6598FEB0C;353.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 17747 strings out of 493089
- 330031 string characters out of 6134842
- 399685 words of memory out of 5000000
- 20866 multiletter control sequences out of 15000+600000
+ 17782 strings out of 493089
+ 330721 string characters out of 6134842
+ 400333 words of memory out of 5000000
+ 20889 multiletter control sequences out of 15000+600000
  11841 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,1267b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,54p,1289b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (10 pages, 2669211 bytes).
+Output written on main.pdf (11 pages, 6243427 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
