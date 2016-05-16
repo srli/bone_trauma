@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 02:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -826,64 +826,64 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.96 
-      [1 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] [2]
-Overfull \hbox (2.35689pt too wide) in paragraph at lines 107--108
-\OT1/cmr/m/n/10 trauma in-clude the pres-ence of the pro-jec-tile that can be as-so-ci-ated with bone, frac-ture pat-terns cor-re-spond-ing
- []
-
-<img/gunshot1.png, id=74, 271.0125pt x 290.08376pt>
+      [1 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] <img/fracture.png, id=67, 610.28pt x 324.21124pt>
+File: img/fracture.png Graphic file (type png)
+ <use img/fracture.png>
+Package pdftex.def Info: img/fracture.png used on input line 105.
+(pdftex.def)             Requested size: 328.82707pt x 174.69548pt.
+ [2 <./img/fracture.png>] <img/gunshot1.png, id=84, 271.0125pt x 290.08376pt>
 File: img/gunshot1.png Graphic file (type png)
  <use img/gunshot1.png>
-Package pdftex.def Info: img/gunshot1.png used on input line 113.
+Package pdftex.def Info: img/gunshot1.png used on input line 123.
 (pdftex.def)             Requested size: 164.41353pt x 175.99031pt.
- <img/gunshot2.png, id=75, 272.01625pt x 289.08pt>
+ <img/gunshot2.png, id=85, 272.01625pt x 289.08pt>
 File: img/gunshot2.png Graphic file (type png)
  <use img/gunshot2.png>
-Package pdftex.def Info: img/gunshot2.png used on input line 117.
+Package pdftex.def Info: img/gunshot2.png used on input line 127.
 (pdftex.def)             Requested size: 164.41353pt x 174.73293pt.
- <img/entrance_wound.png, id=78, 387.94937pt x 259.46938pt>
-File: img/entrance_wound.png Graphic file (type png)
- <use img/entrance_wound.png>
-Package pdftex.def Info: img/entrance_wound.png used on input line 130.
+ [3 <./img/gunshot1.png> <./img/gunshot2.png>] <img/entrance.png, id=101, 393.47pt x 262.9825pt>
+File: img/entrance.png Graphic file (type png)
+ <use img/entrance.png>
+Package pdftex.def Info: img/entrance.png used on input line 141.
+(pdftex.def)             Requested size: 164.41353pt x 109.88608pt.
+ <img/entrance_ct.png, id=102, 387.94937pt x 259.46938pt>
+File: img/entrance_ct.png Graphic file (type png)
+ <use img/entrance_ct.png>
+Package pdftex.def Info: img/entrance_ct.png used on input line 145.
 (pdftex.def)             Requested size: 164.41353pt x 109.96619pt.
- <img/exit_wound.png, id=79, 389.455pt x 259.97125pt>
-File: img/exit_wound.png Graphic file (type png)
- <use img/exit_wound.png>
-Package pdftex.def Info: img/exit_wound.png used on input line 134.
+ <img/exit.png, id=105, 393.47pt x 259.97125pt>
+File: img/exit.png Graphic file (type png)
+ <use img/exit.png>
+Package pdftex.def Info: img/exit.png used on input line 155.
+(pdftex.def)             Requested size: 164.41353pt x 108.62785pt.
+ <img/exit_ct.png, id=106, 389.455pt x 259.97125pt>
+File: img/exit_ct.png Graphic file (type png)
+ <use img/exit_ct.png>
+Package pdftex.def Info: img/exit_ct.png used on input line 159.
 (pdftex.def)             Requested size: 164.41353pt x 109.75046pt.
- [3 <./img/gunshot1.png> <./img/gunshot2.png> <./img/entrance_wound.png> <./img/exit_wound.png>]
-Overfull \hbox (3.66258pt too wide) in paragraph at lines 145--146
-[]\OT1/cmr/m/n/10 Due to the low-velocity im-pact, fea-tures sug-gest-ing blunt force trauma in-clude plas-tic de-for-ma-tion, lam-i-na-tion,
- []
-
-
-Overfull \hbox (9.99583pt too wide) in paragraph at lines 145--146
-\OT1/cmr/m/n/10 tool marks/impressions at trauma site, or frac-ture pat-terns on the bone sug-gest-ing low ve-loc-ity impact.[[]] 
- []
-
-[4] [5] [6] [7] (./main.bbl) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+ [4 <./img/entrance.png> <./img/entrance_ct.png> <./img/exit.png> <./img/exit_ct.png>] [5] [6] [7] [8] (./main.bbl) [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6C373772A90D6D2B6EC9674C894E5FBE;341.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 17725 strings out of 493089
- 329698 string characters out of 6134842
- 397979 words of memory out of 5000000
- 20851 multiletter control sequences out of 15000+600000
+ 17747 strings out of 493089
+ 330031 string characters out of 6134842
+ 399685 words of memory out of 5000000
+ 20866 multiletter control sequences out of 15000+600000
  11841 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,1119b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,54p,1267b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (9 pages, 1329230 bytes).
+Output written on main.pdf (10 pages, 2669211 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
