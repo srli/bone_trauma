@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 MAY 2016 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -739,25 +739,23 @@ Package caption Info: hyperref package is loaded.
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count146
 \c@subtable=\count147
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
- (./main.aux)
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
  ABD: EveryShipout initializing macros (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
@@ -783,7 +781,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring OFF on input line 62.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -791,84 +789,101 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 68.
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <img/bone_microstructure.jpg, id=56, 208.6194pt x 308.352pt>
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+<img/bone_microstructure.jpg, id=44, 208.6194pt x 308.352pt>
 File: img/bone_microstructure.jpg Graphic file (type jpg)
  <use img/bone_microstructure.jpg>
-Package pdftex.def Info: img/bone_microstructure.jpg used on input line 85.
-(pdftex.def)             Requested size: 117.43875pt x 173.57932pt.
- <img/bone_stress.png, id=57, 432.61626pt x 281.55188pt>
+Package pdftex.def Info: img/bone_microstructure.jpg used on input line 83.
+(pdftex.def)             Requested size: 93.94955pt x 138.86063pt.
+ <img/bone_stress.png, id=47, 432.61626pt x 281.55188pt>
 File: img/bone_stress.png Graphic file (type png)
  <use img/bone_stress.png>
-Package pdftex.def Info: img/bone_stress.png used on input line 89.
-(pdftex.def)             Requested size: 258.36668pt x 168.15482pt.
-
-Overfull \hbox (23.48918pt too wide) in paragraph at lines 89--90
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (54.44025pt too wide) in paragraph at lines 108--109
-[]\OT1/cmr/m/n/10 Forensic in-ves-ti-ga-tors in-ter-ested in tim-ing trauma ob-served on the bone should ob-serve the fol-low-ing char-ac-ter-is-tics. 
- []
-
+Package pdftex.def Info: img/bone_stress.png used on input line 88.
+(pdftex.def)             Requested size: 211.3883pt x 137.57497pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 \subsection
-                 {Peri-mortem trauma} [1] [2 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] [3] [4]
-Overfull \hbox (3.66258pt too wide) in paragraph at lines 132--133
+l.96 
+      [1 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] [2]
+Overfull \hbox (2.35689pt too wide) in paragraph at lines 107--108
+\OT1/cmr/m/n/10 trauma in-clude the pres-ence of the pro-jec-tile that can be as-so-ci-ated with bone, frac-ture pat-terns cor-re-spond-ing
+ []
+
+<img/gunshot1.png, id=74, 271.0125pt x 290.08376pt>
+File: img/gunshot1.png Graphic file (type png)
+ <use img/gunshot1.png>
+Package pdftex.def Info: img/gunshot1.png used on input line 113.
+(pdftex.def)             Requested size: 164.41353pt x 175.99031pt.
+ <img/gunshot2.png, id=75, 272.01625pt x 289.08pt>
+File: img/gunshot2.png Graphic file (type png)
+ <use img/gunshot2.png>
+Package pdftex.def Info: img/gunshot2.png used on input line 117.
+(pdftex.def)             Requested size: 164.41353pt x 174.73293pt.
+ <img/entrance_wound.png, id=78, 387.94937pt x 259.46938pt>
+File: img/entrance_wound.png Graphic file (type png)
+ <use img/entrance_wound.png>
+Package pdftex.def Info: img/entrance_wound.png used on input line 130.
+(pdftex.def)             Requested size: 164.41353pt x 109.96619pt.
+ <img/exit_wound.png, id=79, 389.455pt x 259.97125pt>
+File: img/exit_wound.png Graphic file (type png)
+ <use img/exit_wound.png>
+Package pdftex.def Info: img/exit_wound.png used on input line 134.
+(pdftex.def)             Requested size: 164.41353pt x 109.75046pt.
+ [3 <./img/gunshot1.png> <./img/gunshot2.png> <./img/entrance_wound.png> <./img/exit_wound.png>]
+Overfull \hbox (3.66258pt too wide) in paragraph at lines 145--146
 []\OT1/cmr/m/n/10 Due to the low-velocity im-pact, fea-tures sug-gest-ing blunt force trauma in-clude plas-tic de-for-ma-tion, lam-i-na-tion,
  []
 
 
-Overfull \hbox (9.99583pt too wide) in paragraph at lines 132--133
+Overfull \hbox (9.99583pt too wide) in paragraph at lines 145--146
 \OT1/cmr/m/n/10 tool marks/impressions at trauma site, or frac-ture pat-terns on the bone sug-gest-ing low ve-loc-ity impact.[[]] 
  []
 
-[5] [6] [7] (./main.bbl) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
+[4] [5] [6] [7] (./main.bbl) [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 96C55E6487C53AABA631CDF3C016233F;543.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
+(rerunfilecheck)             Checksum: 6C373772A90D6D2B6EC9674C894E5FBE;341.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 17701 strings out of 493089
- 329188 string characters out of 6134842
- 398640 words of memory out of 5000000
- 20836 multiletter control sequences out of 15000+600000
- 11840 words of font info for 46 fonts, out of 8000000 for 9000
+ 17725 strings out of 493089
+ 329698 string characters out of 6134842
+ 397979 words of memory out of 5000000
+ 20851 multiletter control sequences out of 15000+600000
+ 11841 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,1146b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (9 pages, 239275 bytes).
+ 55i,8n,54p,1119b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (9 pages, 1329230 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

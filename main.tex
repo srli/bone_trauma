@@ -24,21 +24,19 @@
 \DeclarePairedDelimiter\ceil{\lceil}{\rceil}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ------ Package Preferences ------
 \setlength{\droptitle}{-2cm}
 
-\graphicspath{ {Images/} }
+\graphicspath{ {img/} }
 
-\hypersetup{                %color of links
-    colorlinks,
-    linkcolor=red,
-    urlcolor=blue
-}
+% \hypersetup{                %color of links
+%     colorlinks,
+%     linkcolor=red,
+%     urlcolor=blue
+% }
 
 \def\UrlBreaks{\do\/\do-} %url line breaks
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -76,72 +74,96 @@ Additionally, as the approach to an investigation based on the type of trauma di
 This paper will conclude with a discussion on the future of bone trauma analysis, and why trauma analysis is important to forensic anthropologists in the field today.
 
 \section{Material properties of bone}
-The human skeleton is the constantly changing frame of the body, with cell turnover ensuring that the bone will be able to grow, heal, and adapt. There are two main types of bone tissue, specifically cortical bone and cancellous bone (synonmyous with trabecular bone). Cortical bone forms the hard hollow cylinder of the bone and is responsible for mechanical stability. Cancellous bone is the spongy interior of the cylinder, and is responsible for nutrient storage and transport. The tissues are biologically identical, but differences in the arrangement of the microstructure results in different material properties. Cortical bone forms about 80\% of the mass of the skeleton, and forms a hollow cynlinder within which the spongy cancellous bone resides. \cite{bone} Due to the difference in material properties between cortical and cancellous bone, the ratio of of the two at a trauma site will affect the definition of the mark left behind. Fig.\ref{fig:bone_struct} provides a cross-sectional view of the two types of ossesous tissue in an adult femur and provides numerical stress thresholds for adult bone.
+The human skeleton is the constantly changing frame of the body, with cell turnover ensuring that the bone will be able to grow, heal, and adapt. There are two main types of bone tissue, specifically cortical and cancellous(trabecular) bone. Cortical bone forms the hard hollow cylinder of the bone and is responsible for mechanical stability. Cancellous bone is the spongy interior of the cylinder, and is responsible for nutrient storage and transport. The tissues are biologically identical, but differences in the arrangement of the microstructure results in different material properties. Cortical bone forms about 80\% of the mass of the skeleton, and forms a hollow cynlinder within which the spongy cancellous bone resides.\cite{bone} Fig.\ref{fig:bone_struct} provides a cross-sectional view of the two types of ossesous tissue in an adult femur and provides numerical stress thresholds for adult bone.\\
 
 \begin{figure}[h!]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.5\linewidth]{img/bone_microstructure}
+  \includegraphics[width=.4\linewidth]{bone_microstructure}
+  \caption{Adapted from \cite{cross-section}}
   \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=1.1\linewidth]{img/bone_stress}
-  \caption{}
+  \includegraphics[width=.9\linewidth]{bone_stress}
+  \caption{Adapted from \cite{stress}}
 \end{subfigure}
 \caption{(a) is a cross-section of a human femur, showing the difference between cancellous and cortical bone. (b) charts ultimate stress thresholds for adult cortical bone. Shaded areas indicate thresholds for cancellous bone.}
 \label{fig:bone_struct}
 \end{figure}
 
-Bone is considered anisotrophic, as bone trauma will be exhibited differently based on the location of the impact. However, we can observe the following:
+As can be seem from Fig.\ref{fig:bone_struct}.b, there are marked differences in strength between cortical and cancellous bone, thus the ratio of of the two at a trauma site will affect the definition of the mark left behind.  From Fig.\ref{fig:bone_struct}.a, it is observed that bone is strong against compressive and tensive forces, but weak against shear. This is consistent with typical loading forces bone experiences in day to day life. However, the bio-mechanics of a specific sample of bone will depend on the sampled individual. Factors like age, sex, location in body, and amount of water present will heavily affect the mechanical properties of the bone. Thus, any observations should take the unique context of the individual and the environment into account when characterizing marks left on bone material. Additionally, Fig.\ref{fig:bone_struct}.b notes that there are marked differences in strength between cortical and cancellous bone, thus the ratio of of the two at a trauma site will affect the definition of the mark left behind. Forensic investigators interested in timing fractures or marks observed on the bone should observe the following characteristics.
 
-Crack propagation happens more readily in the lateral direction due to the organization of the bone tissue fibers. \cite{mechanics}
+\textbf{Ante-mortem trauma}: Refers to trauma on the skeleton that occurs prior to the death of the individual. In-vivo bone exhibits healing, and edges of a fracture will be fairly smooth. If the trauma occured while the individual was young, there may be almost no signs of trauma happening at all. Some examples of ante-mortem trauma include lesions on the bone due to responses to infection, degenerative joint disease, or sugically implanted instruments. As healing rates differ depending on the characteristics of the individual, the same injury may look different from case to case.
 
-%TODO: INSERT IMAGES OF CRACKS
+\textbf{Peri-mortem trauma}: Refers to trauma occuring around death. Fracture patterns observed in peri-mortem trauma can be similar to those seen in ante-mortem trauma, but have sharper edges since no healing will have occured (in most cases). Patterns will show evidence of some terminal event, i.e fast collision with an object, but fracture edges will show characteristics of plastic deformation as the external fibers of the bone tissue begin to show micro-tears.
 
-Bone is strong against compression and tension stress, but weak against shear force. This is consistent with typical loading forces bone experiances in day to day life. However, most cases of bone trauma seen in a forensic context is due to shear force.
+\textbf{Post-mortem damage}: Refers to damage occuring after death. Bone becomes brittle once it has dried out, and exhibits ceramic-like material properties. Fractures will be jagged and exhibit no healing, and discoloration of the bone may be observed in the case where damage exposes new surfaces of the bone after some time. Fracture patterns may also be irregular, and lack a common correlation to an event that caused the damage, i.e fractures resulting from post-mortem bone shrinkage.\cite{trauma, evid}
 
-%TODO: INSERT CHART OF STRESS
-
-The bio-mechanics of a specific sample of bone depend heavily on the sampled individual. Factors like age, sex, location in body, and amount of water present will heavily affect the mechanical properties of the bone. Water content is especially important in a forensic context, as it will allow investigators to determine whether bone trauma occured ante, peri, or post-mortem as water evaporates as the body decomposes.
-
-Forensic investigators interested in timing trauma observed on the bone should observe the following characteristics.
-
-\subsection{Ante-mortem trauma}
-Ante-mortem trauma refers to trauma on the skeleton that occurs prior to the death of the individual. In-vivo bone exhibits recovery, in the form of (INSERT TERMINOLOGY HERE).
-
-\subsection{Peri-mortem trauma}
-Peri-mortem trauma refers to trauma that occurs around the death of the individual.
-
-\subsection{Post-mortem trauma}
-Trauma after death of the individual.
+Regardless of which kind of traumatic event has occured on the bone, the mechanics of the material remains constant. Due to inhomogenous composition of bone, it is difficult to exactly predict the fracture response of bone to a stimulus. A study conducted by Ramana Sadananda concludes that a probabilistic approach using Weibull statistics was significantly accurate in predicting fracture probability of three types of chicken bones.\cite{fracture-analysis} Though the study was not conducted on human bones, it still shows that the Weibull distribution is applicable in quantitatively determining the material strength of bone. The same kind of statistics are used for failure analysis in many engineering fields, indicating that there may be an overlap of knowledge that anthropologists may draw from. As the bio-mechanical properties of bone dictate the response of bone to trauma, being able to simulate and predict fractures provides important information to a forensic anthropologist.
 
 \newpage
 \section{Ballistic}
-Ballistic trauma on bone is usually the result of a bullet, though it may be applied to any fast traveling object that has collided with bone. Features that indicate possible ballistic trauma include the presence of the projectile that can be associated with bone, and fracture patterns corresponding to a high velocity impact. Because ballistic trauma in cases where a forensic anthropologist may be bought in are almost always due to a bullet, this section will only examin ballistic trauma in the case of a bullet.
+Ballistic trauma on bone is usually the result of a bullet or an explosive, though this categorization may be applied to any fast traveling object that has collided with bone. Features that indicate possible ballistic trauma include the presence of the projectile that can be associated with bone, fracture patterns corresponding to a high velocity impact, or fragmentary foreign material found within the bone or the environment. There will always be an entrace wound, though an exit wound may not be present. Characterisics of an entrace wound beveling towards the inside of the skull
+
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{gunshot1}
+  \end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{gunshot2}
+\end{subfigure}
+\caption{Adapted from \cite{ballistic-trauma}. (a) shows }
+\label{fig:gunshot}
+\end{figure}
+
 
 The bullet enters the wound with a higher velocity than when it exits, thus the entrace wound will usually be smaller than the exit wound. Entrace wounds can be identified by looking at beveled edges towards the interior of the body. As the bullet exits the wound, it hits the bone with less force causing shattering and greater fractures to the internal tissue.
 
-\newpage
-\section{Blast}
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{entrance_wound}
+  \end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{exit_wound}
+\end{subfigure}
+\caption{Adapted from \cite{post-imaging}. (a) shows }
+\label{fig:imaging_gunshot}
+\end{figure}
 
 \newpage
 \section{Blunt force trauma}
 While ballistic and blast trauma can both be techinically classified as blunt force trauma, in the context of this paper we will refer to blunt force trauma as trauma resulting from a low-velocity impact from a blunt object, or a low-velocity impact with a blunt surface.
 
+
 Due to the low-velocity impact, features suggesting blunt force trauma include plastic deformation, lamination, tool marks/impressions at trauma site, or fracture patterns on the bone suggesting low velocity impact.\cite{trauma}
 
+\newpage
+\section{Blast}
 
 
 \newpage
 \section{Sharp force trauma}
 Sharp force trauma is characterized by trauma resulting from a tool that is edged, pointed, or beveled. Features indicating sharp force trauma on bone include straight-lined incisions, punctures or gouges, clefs or kerfs. Considerations must be taken when examining the wound, since alterations to the bone like scrapes or score marks are not classified as sharp force trauma. \cite{trauma}
 
+
+
 (SECTION DESCRIBING EACH TYPE OF TRAUMA i.e gouges, clefs, kerfs)
 
-There are a few methods currently used in examining bones with evidence of sharp force trauma. Casting is an immediately viable option, and is a non-destructive way of providing investigators a method of examining the wound. However, casting on on soft-tissue has been met with mixed success, and is unable to provide information to investigators on the micro scale about the incision. However, it is possible to estimate the motion of the tool based on whether it is a slash (the incision is wider than it is deep), or a stab (the incision is deeper than it is wide) through visual inspection. \cite{serrated} Macro inspection of the wound at a visual scale can qualitatively describe the tool used in the trauma down to a class, such as \"single edged\" or \"beveled\". The handedness of an attacker, or whether a wound is self inflicted can be determined by the angle of the incision in context to the position of the body.
+There are a few methods currently used in examining bones with evidence of sharp force trauma. Casting is an immediately viable option, and is a non-destructive way of providing investigators a method of examining the wound. However, casting on on soft-tissue has been met with mixed success, and is unable to provide information to investigators on the micro scale about the incision. However, it is possible to estimate the motion of the tool based on whether it is a slash (the incision is wider than it is deep), or a stab (the incision is deeper than it is wide) through visual inspection. \cite{serrated} Macro inspection of the wound at a visual scale can qualitatively describe the tool used in the trauma down to a class, such as "single edged" or "beveled". The handedness of an attacker, or whether a wound is self inflicted can be determined by the angle of the incision in context to the position of the body.
+
+Crack propagation happens more readily in the lateral direction due to the organization of the bone tissue fibers.\cite{mechanics} In cases where the bone has experianced sharp force trauma,
+
+
 
 Micro-CT scanning technology is used to give greater insight to the patterned marks left within bone from sharp force trauma, by giving investigators cross-sectional view of the impact site. Tests conducted via sharp force inpact analyzed by micro-CT scanning were able to correctly determine the size and shape of a knife, in addition to the angle of impact in most cases. The tests were not quite as accurate when the knife was excessively rocked or rotated within the bone, though examining the wound profile and the tip of the knife allows better precision.\cite{micro-ct}
+
 
 \newpage
 \section{Thermal}

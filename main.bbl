@@ -1,20 +1,46 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{bone}
 F.~H. Netter, {\em Musculoskeletal system: anatomy, physiology, and metabolic
   disorders}.
-\newblock Ciba-Geigy Corporation.
+\newblock Ciba-Geigy Corporation, 1987.
 
-\bibitem{mechanics}
-U.~of~Cambridge, ``Bone mechanics.''
+\bibitem{cross-section}
+N.~M. B.~K. Willems and et~al., ``The microstructural and biomechanical
+  development of the condylar bone: a review,'' {\em The European Journal of
+  Orthodontics}, Dec.
+
+\bibitem{stress}
+N.~DirSci and V.~H.~Frankel, {\em Basic Biomechanics of the Musculoskeletal
+  System}.
+\newblock Victor Hirsch Frankel, 1989.
 
 \bibitem{trauma}
 ``Trauma analysis,'' {\em Scientific Working Group for Forensic Anthropology}.
+
+\bibitem{evid}
+S.~D. of~Anthropology, ``Evidence of trauma.''
+
+\bibitem{fracture-analysis}
+R.~Sadananda, ``A probabilistic approach to bone fracture analysis,'' {\em
+  Journal of Materials Research}, vol.~Vol. 6, No.1, 1991.
+
+\bibitem{ballistic-trauma}
+H.~T. Harcke and et~al., ``Mdct analysis of projectile injury in forensic
+  investigation,'' {\em American Journal of Radiology}.
+
+\bibitem{post-imaging}
+M.~Oehmichen and et~al., ``Forensic pathological aspects of postmortem imaging
+  of gunshot injury to the head: documentation and biometric data,'' {\em Acta
+  Neuropathol}.
 
 \bibitem{serrated}
 T.~J.~U. Thompson and J.~Inglis, ``Differentiation of serrated and non-serrated
   blades from stab marks in bone,'' {\em International Journal of Legal
   Medicine}, 2009.
+
+\bibitem{mechanics}
+U.~of~Cambridge, ``Bone mechanics.''
 
 \bibitem{micro-ct}
 M.~J. Thali and et. al, ``Forensic microradiology: Micro-computed tomography
