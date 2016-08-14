@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -807,127 +807,146 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.77 \newpage
+              [1]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-<img/bone_microstructure.jpg, id=44, 208.6194pt x 308.352pt>
+<img/bone_microstructure.jpg, id=49, 208.6194pt x 308.352pt>
 File: img/bone_microstructure.jpg Graphic file (type jpg)
  <use img/bone_microstructure.jpg>
-Package pdftex.def Info: img/bone_microstructure.jpg used on input line 84.
+Package pdftex.def Info: img/bone_microstructure.jpg used on input line 85.
 (pdftex.def)             Requested size: 93.94955pt x 138.86063pt.
- <img/bone_stress.png, id=47, 432.61626pt x 281.55188pt>
+ <img/bone_stress.png, id=52, 432.61626pt x 281.55188pt>
 File: img/bone_stress.png Graphic file (type png)
  <use img/bone_stress.png>
-Package pdftex.def Info: img/bone_stress.png used on input line 89.
+Package pdftex.def Info: img/bone_stress.png used on input line 90.
 (pdftex.def)             Requested size: 211.3883pt x 137.57497pt.
+ [2 <./img/bone_microstructure.jpg> <./img/bone_stress.png>]
+Overfull \hbox (3.7914pt too wide) in paragraph at lines 101--102
+[]\OT1/cmr/bx/n/10 Peri-mortem trauma\OT1/cmr/m/n/10 : Refers to trauma oc-cur-ring around death. Frac-ture pat-terns ob-served in peri-mortem
+ []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.98 \textbf{Ante-mortem trauma}
-                                : Refers to trauma on the skeleton that occu... [1] <img/fracture.png, id=63, 610.28pt x 324.21124pt>
+<img/fracture.png, id=72, 610.28pt x 324.21124pt>
 File: img/fracture.png Graphic file (type png)
  <use img/fracture.png>
-Package pdftex.def Info: img/fracture.png used on input line 106.
+Package pdftex.def Info: img/fracture.png used on input line 107.
 (pdftex.def)             Requested size: 328.82707pt x 174.69548pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2 <./img/bone_microstructure.jpg> <./img/bone_stress.png>] [3 <./img/fracture.png>] <img/gunshot1.png, id=91, 271.0125pt x 290.08376pt>
+ [3 <./img/fracture.png>] <img/gunshot1.png, id=89, 271.0125pt x 290.08376pt>
 File: img/gunshot1.png Graphic file (type png)
  <use img/gunshot1.png>
-Package pdftex.def Info: img/gunshot1.png used on input line 124.
+Package pdftex.def Info: img/gunshot1.png used on input line 125.
 (pdftex.def)             Requested size: 164.41353pt x 175.99031pt.
- <img/gunshot2.png, id=92, 272.01625pt x 289.08pt>
+ <img/gunshot2.png, id=90, 272.01625pt x 289.08pt>
 File: img/gunshot2.png Graphic file (type png)
  <use img/gunshot2.png>
-Package pdftex.def Info: img/gunshot2.png used on input line 128.
+Package pdftex.def Info: img/gunshot2.png used on input line 130.
 (pdftex.def)             Requested size: 164.41353pt x 174.73293pt.
- <img/entrance.png, id=99, 393.47pt x 262.9825pt>
+ [4 <./img/gunshot1.png> <./img/gunshot2.png>] <img/entrance.png, id=105, 393.47pt x 262.9825pt>
 File: img/entrance.png Graphic file (type png)
  <use img/entrance.png>
-Package pdftex.def Info: img/entrance.png used on input line 142.
+Package pdftex.def Info: img/entrance.png used on input line 145.
 (pdftex.def)             Requested size: 164.41353pt x 109.88608pt.
- <img/entrance_ct.png, id=100, 387.94937pt x 259.46938pt>
+ <img/entrance_ct.png, id=106, 387.94937pt x 259.46938pt>
 File: img/entrance_ct.png Graphic file (type png)
  <use img/entrance_ct.png>
-Package pdftex.def Info: img/entrance_ct.png used on input line 146.
+Package pdftex.def Info: img/entrance_ct.png used on input line 150.
 (pdftex.def)             Requested size: 164.41353pt x 109.96619pt.
- <img/exit.png, id=103, 393.47pt x 259.97125pt>
+ <img/exit.png, id=109, 393.47pt x 259.97125pt>
 File: img/exit.png Graphic file (type png)
  <use img/exit.png>
-Package pdftex.def Info: img/exit.png used on input line 156.
+Package pdftex.def Info: img/exit.png used on input line 161.
 (pdftex.def)             Requested size: 164.41353pt x 108.62785pt.
- <img/exit_ct.png, id=104, 389.455pt x 259.97125pt>
+ <img/exit_ct.png, id=110, 389.455pt x 259.97125pt>
 File: img/exit_ct.png Graphic file (type png)
  <use img/exit_ct.png>
-Package pdftex.def Info: img/exit_ct.png used on input line 160.
+Package pdftex.def Info: img/exit_ct.png used on input line 166.
 (pdftex.def)             Requested size: 164.41353pt x 109.75046pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./img/gunshot1.png> <./img/gunshot2.png> <./img/entrance.png> <./img/entrance_ct.png>] <img/blunt_trauma.png, id=121, 520.94624pt x 490.83376pt>
+ [5 <./img/entrance.png> <./img/entrance_ct.png> <./img/exit.png> <./img/exit_ct.png>] <img/blunt_trauma.png, id=127, 520.94624pt x 490.83376pt>
 File: img/blunt_trauma.png Graphic file (type png)
  <use img/blunt_trauma.png>
-Package pdftex.def Info: img/blunt_trauma.png used on input line 175.
+Package pdftex.def Info: img/blunt_trauma.png used on input line 182.
 (pdftex.def)             Requested size: 187.89914pt x 177.03703pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<img/butterfly.png, id=124, 335.2525pt x 339.2675pt>
+ <img/butterfly.png, id=130, 335.2525pt x 339.2675pt>
 File: img/butterfly.png Graphic file (type png)
  <use img/butterfly.png>
-Package pdftex.def Info: img/butterfly.png used on input line 184.
+Package pdftex.def Info: img/butterfly.png used on input line 191.
 (pdftex.def)             Requested size: 187.89914pt x 190.14897pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./img/exit.png> <./img/exit_ct.png>] [6 <./img/blunt_trauma.png> <./img/butterfly.png>] [7] <img/unburned_transverse.png, id=162, 396.48125pt x 550.055pt>
-File: img/unburned_transverse.png Graphic file (type png)
- <use img/unburned_transverse.png>
-Package pdftex.def Info: img/unburned_transverse.png used on input line 219.
-(pdftex.def)             Requested size: 164.41353pt x 228.10071pt.
- <img/burned_transverse.png, id=163, 400.49625pt x 552.0625pt>
-File: img/burned_transverse.png Graphic file (type png)
- <use img/burned_transverse.png>
-Package pdftex.def Info: img/burned_transverse.png used on input line 223.
-(pdftex.def)             Requested size: 164.41353pt x 226.63348pt.
+[6 <./img/blunt_trauma.png>] <img/serrated.png, id=149, 554.07pt x 386.44376pt>
+File: img/serrated.png Graphic file (type png)
+ <use img/serrated.png>
+Package pdftex.def Info: img/serrated.png used on input line 207.
+(pdftex.def)             Requested size: 164.41353pt x 114.67213pt.
+ <img/non_serrated.png, id=150, 543.02875pt x 400.49625pt>
+File: img/non_serrated.png Graphic file (type png)
+ <use img/non_serrated.png>
+Package pdftex.def Info: img/non_serrated.png used on input line 212.
+(pdftex.def)             Requested size: 164.41353pt x 121.2559pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <./img/unburned_transverse.png> <./img/burned_transverse.png>] (./main.bbl) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+[7 <./img/butterfly.png>] <img/sharp_vertical.png, id=162, 391.4625pt x 214.8025pt>
+File: img/sharp_vertical.png Graphic file (type png)
+ <use img/sharp_vertical.png>
+Package pdftex.def Info: img/sharp_vertical.png used on input line 227.
+(pdftex.def)             Requested size: 164.41353pt x 90.21643pt.
+ <img/sharp_rotational.png, id=163, 391.4625pt x 221.82875pt>
+File: img/sharp_rotational.png Graphic file (type png)
+ <use img/sharp_rotational.png>
+Package pdftex.def Info: img/sharp_rotational.png used on input line 232.
+(pdftex.def)             Requested size: 164.41353pt x 93.16742pt.
+ [8 <./img/serrated.png> <./img/non_serrated.png> <./img/sharp_vertical.png> <./img/sharp_rotational.png>] [9] <img/trauma_transverse.png, id=187, 399.4925pt x 550.055pt>
+File: img/trauma_transverse.png Graphic file (type png)
+ <use img/trauma_transverse.png>
+Package pdftex.def Info: img/trauma_transverse.png used on input line 255.
+(pdftex.def)             Requested size: 164.41353pt x 226.38011pt.
+ <img/heat_transverse.png, id=188, 397.485pt x 552.0625pt>
+File: img/heat_transverse.png Graphic file (type png)
+ <use img/heat_transverse.png>
+Package pdftex.def Info: img/heat_transverse.png used on input line 260.
+(pdftex.def)             Requested size: 164.41353pt x 228.36037pt.
+ [10 <./img/trauma_transverse.png> <./img/heat_transverse.png>] <img/unburned_transverse.png, id=202, 396.48125pt x 550.055pt>
+File: img/unburned_transverse.png Graphic file (type png)
+ <use img/unburned_transverse.png>
+Package pdftex.def Info: img/unburned_transverse.png used on input line 274.
+(pdftex.def)             Requested size: 164.41353pt x 228.10071pt.
+ <img/burned_transverse.png, id=203, 400.49625pt x 552.0625pt>
+File: img/burned_transverse.png Graphic file (type png)
+ <use img/burned_transverse.png>
+Package pdftex.def Info: img/burned_transverse.png used on input line 279.
+(pdftex.def)             Requested size: 164.41353pt x 226.63348pt.
+ [11 <./img/unburned_transverse.png> <./img/burned_transverse.png>] [12] (./main.bbl) [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1A0D55AFBBCE2BAB8992CEB6598FEB0C;353.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
  ) 
 Here is how much of TeX's memory you used:
- 17782 strings out of 493089
- 330721 string characters out of 6134842
- 400333 words of memory out of 5000000
- 20889 multiletter control sequences out of 15000+600000
+ 17823 strings out of 493089
+ 331599 string characters out of 6134842
+ 400062 words of memory out of 5000000
+ 20917 multiletter control sequences out of 15000+600000
  11841 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,1289b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,54p,1298b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 6243427 bytes).
+Output written on main.pdf (14 pages, 13071024 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 268 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
